@@ -7,3 +7,4 @@ Pillow
 textblob
 google-generativeai
 gunicorn
+waitress
