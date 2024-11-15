@@ -1,0 +1,8 @@
+Flask
+flask-cors
+pymongo
+bson
+fpdf
+Pillow
+textblob
+google-generativeai
