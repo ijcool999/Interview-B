@@ -24,6 +24,13 @@ def initialize_proctoring():
     print("Initializing proctoring...")
     threading.Thread(target=proctoring.start_proctoring).start()
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({
+        "status": "Proctoring service is running",
+        "message": "Everything is working fine"
+    })
+
 # Endpoint to check proctoring status and send the last warning
 @app.route('/check_proctoring_status', methods=['GET'])
 def check_proctoring_status():

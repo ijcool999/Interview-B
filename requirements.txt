@@ -6,3 +6,4 @@ fpdf
 Pillow
 textblob
 google-generativeai
+gunicorn
