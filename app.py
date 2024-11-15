@@ -42,5 +42,5 @@ def check_proctoring_status():
 
 if __name__ == '__main__':
     initialize_proctoring()
-    app.run(debug=True, port=8080)
+    app.run(debug=True)
 
